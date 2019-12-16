@@ -1,34 +1,123 @@
+/***** Basic Elements *****/
 body {
-  background-color: #222831;
-  /* background-color: #f4f4f4; */
-  color: white;
-  /* color: #232020; */
+  margin: 0px;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
 }
 
-hr {
-  border-style: dotted none none;
-  border-color: white;
-  /* border-color: #232020; */
-  border-width: 5px;
-  width: 5%;
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0px;
+  font-family: 'Rochester', cursive;
+  color: #c10000;
 }
 
-h1,
-h2,
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Dosis', sans-serif;
+  color: #c10000;
+  font-weight: normal;
+}
+
 h3 {
-  color: #29a19c;
-  /* color: #ff7315; */
-}
-
-p {
-  color: white;
-  /* color: #232020; */
-}
-
-td {
-  padding: 5px;
+  font-family: 'Dosis', sans-serif;
+  color: #ff4949;
 }
 
 a{
-  color: #ff7315;
+    color: #c10000;
+    text-decoration: none;
+    margin: auto 1rem;
+    font-weight: bold;
+    font-family: 'Rochester', cursive;
 }
+
+a:hover{
+    color: #ff4949;
+}
+
+hr{
+    width: 5%;
+    border-top: dotted 8px #dedede;
+    margin: 5rem auto;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+
+}
+
+p{
+    line-height: 2;
+}
+
+/***** Classes *****/
+.top-container {
+  background-color: #eee;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+    margin: 6.25rem auto;
+}
+
+.bottom-container {
+    background-color: #eee;
+    padding: 3.125rem 0 1rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 6.25rem auto;
+    text-align: left;
+}
+
+.skill1-img{
+    /* width:25%; */
+    float: left;
+    margin-right: 1.875rem;
+}
+
+.skill2-img{
+    /* width:25%; */
+    float: right;
+    margin-left: 1.875rem;
+}
+
+.btn {
+	background:linear-gradient(to bottom, #ff4949 5%, #cc3a3a 100%);
+	background-color:#ff4949;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+    text-decoration:none;
+    margin-top: 3.125rem;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #cc3a3a 5%, #ff4949 100%);
+    background-color:#cc3a3a;
+    color: #fff;
+}
+
+.copyright{
+    font-size: 0.75rem;
+    padding: 2rem 0 1rem;
+}
+
